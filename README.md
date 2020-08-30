@@ -1,0 +1,2 @@
+# bashrc
+Current Bashrc script
