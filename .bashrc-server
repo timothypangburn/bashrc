@@ -1,6 +1,6 @@
 # .bashrc
 
-export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]\\$ "
+export PS1="\[\e[32m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]\n$ "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
