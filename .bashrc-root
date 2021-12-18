@@ -120,3 +120,5 @@ fi
 
 set -o vi
 
+alias ll="ls -alh --color"
+alias pbcopy="xclip -sel clip"
