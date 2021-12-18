@@ -21,4 +21,7 @@ export PATH
 
 set -o vi
 
+# Aliases
 alias ll="ls -alh"
+alias pbcopy="xclip -sel clip"
+
