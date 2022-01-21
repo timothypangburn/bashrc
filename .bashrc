@@ -1,6 +1,16 @@
 # .bashrc
 
-export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]\\$ "
+# Uncomment if the distribution does not have this on by default 
+# # User specific aliases and functions
+# if [ -d ~/.bashrc.d ]; then
+# 	for rc in ~/.bashrc.d/*; do
+# 		if [ -f "$rc" ]; then
+# 			. "$rc"
+# 		fi
+# 	done
+# fi
+
+export PS1="\[\e[33m\]\u\[\e[m\]@\[\e[34m\]\h\[\e[m\]:\[\e[35m\]\w\[\e[m\]\\n\$ "
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
